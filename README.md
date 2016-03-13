@@ -3,7 +3,7 @@
 [![npm][npm-image]][npm-url]
 [![js-standard-style][standard-style-image]][standard-style-url]
 
-[npm-image]: https://img.shields.io/npm/v/sg-example?style=flat
+[npm-image]: https://img.shields.io/npm/v/sg-example.svg?style=flat
 [npm-url]: https://npmjs.org/package/sg-example
 [standard-style-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat
 [standard-style-url]: https://github.com/feross/standard
