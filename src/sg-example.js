@@ -27,7 +27,7 @@ function createCodeExample (code) {
 
 class SgExample extends window.HTMLElement {
   createdCallback () {
-    let code = this.innerHTML
+    const code = this.innerHTML
           .split(/\r?\n/)
           .filter(line => line.trim() !== '')
           .map(unindent())
