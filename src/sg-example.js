@@ -33,8 +33,8 @@ class SgExample extends window.HTMLElement {
           .map(unindent())
           .join('\n')
 
-    this._root = this.createShadowRoot()
-    this._root.appendChild(createCodeExample(code))
+    const root = this.createShadowRoot()
+    root.appendChild(createCodeExample(code))
   }
 }
 
