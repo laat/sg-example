@@ -9,6 +9,7 @@
     "build:js": "browserify -d src/sg-example.js -o lib/sg-example.js",
     "watch:js": "watchify -d src/sg-example.js -o lib/sg-example.js",
     "build": "mkdir -p lib && npm run build:js && npm run build:html",
+    "lint": "standard src/.",
     "prepublish": "npm run build"
   },
   "keywords": [
