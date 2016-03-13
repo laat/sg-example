@@ -38,4 +38,4 @@ class SgExample extends window.HTMLElement {
   }
 }
 
-export default document.registerElement('sg-example', SgExample)
+document.registerElement('sg-example', SgExample)
