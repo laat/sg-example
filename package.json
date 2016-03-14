@@ -44,5 +44,8 @@
     "http-server": "^0.9.0",
     "standard": "^6.0.8",
     "watchify": "^3.7.0"
+  },
+  "dependencies": {
+    "unindent-lines": "^1.0.2"
   }
 }

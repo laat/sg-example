@@ -1,4 +1,4 @@
-import unindent from './unindent'
+import unindent from 'unindent-lines'
 import hljs from 'highlight.js'
 
 let owner
