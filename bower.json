@@ -1,0 +1,25 @@
+{
+  "name": "sg-example",
+  "description": "Display example-code in styleguides",
+  "main": "lib/sg-example.html",
+  "authors": [
+    "Sigurd Fosseng <sigurd@fosseng.net>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "laat",
+    "example",
+    "code-example",
+    "web-component",
+    "web-components",
+    "styleguide"
+  ],
+  "homepage": "https://github.com/laat/sg-example",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
