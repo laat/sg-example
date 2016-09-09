@@ -1,6 +1,6 @@
 {
   "name": "sg-example",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Display example-code in styleguides",
   "main": "lib/sg-example.js",
   "scripts": {
