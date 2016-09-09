@@ -4,13 +4,14 @@
   "description": "Display example-code in styleguides",
   "main": "lib/sg-example.js",
   "scripts": {
-    "start": "http-server",
+    "build": "mkdir -p lib && npm run build:js && npm run build:html",
     "build:html": "cp src/*.html lib/.",
     "build:js": "browserify -d src/sg-example.js -o lib/sg-example.js",
-    "watch:js": "watchify -d src/sg-example.js -o lib/sg-example.js",
-    "build": "mkdir -p lib && npm run build:js && npm run build:html",
     "lint": "standard src/.",
-    "prepublish": "npm run build"
+    "watch:js": "watchify -d src/sg-example.js -o lib/sg-example.js",
+    "prepublish": "npm run build",
+    "start": "http-server",
+    "test": "npm run lint"
   },
   "keywords": [
     "laat",
@@ -45,7 +46,7 @@
     "browserify": "^13.0.0",
     "highlight.js": "^9.2.0",
     "http-server": "^0.9.0",
-    "standard": "^6.0.8",
+    "standard": "^8.0.0",
     "watchify": "^3.7.0"
   },
   "dependencies": {
