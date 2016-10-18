@@ -30,6 +30,7 @@ class SgExample extends window.HTMLElement {
     const code = this.innerHTML
           .split(/\r?\n/)
           .filter(line => line.trim() !== '')
+          .map(l => l.replace(/=""/g, '')) // Boolean properties are checked="", remove the =""
           .map(unindent())
           .join('\n')
 
